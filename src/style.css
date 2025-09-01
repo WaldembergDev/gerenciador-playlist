@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #23b5d3;
+  --light-primary: #2a81b7;
+  --lighest-color: #7f675b;
+  --secondary-color: #e7ebc5;
+  --light-secondary: #f9faf0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  background-color: var(--primary-color);
+  color: var(--lighest-color);
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+header > h2 > i {
+  margin-right: 0.5rem;
+}
+
+.input-wrapper {
+  width: 50%;
+}
