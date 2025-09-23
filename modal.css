@@ -1,0 +1,6 @@
+#modal-overlay {
+  display: flex;
+  position: fixed; /* propriedade que permite ajustar a posição do elemento. Neste caso é uma posição fixa*/
+  top: 0;
+  left: 0;
+}
